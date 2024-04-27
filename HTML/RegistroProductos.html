@@ -10,7 +10,76 @@
     <link rel="shortcut icon" href="/RECURSOSMULTIMEDIA/ICO/logo2.ico " type="image/x-icon">
     <title>DeliMarket</title>
 </head>
+<!-- **----------------------------------------------------Logo & Slogan----------------------------------------------------------------** -->
 <body>
     
+    <header> 
+        <nav>
+        <div id="logo"><img src="/RECURSOSMULTIMEDIA/IMAGENES/logo2.png" alt="logo"></div>
+        <div id="slogan">Delimarket el placer de mercar en un solo lugar</div>
+        </nav>
+    </header>
+</body>
+    <!-- **----------------------------------------------------Logo & Slogan----------------------------------------------------------------** -->  
+    <!-- **----------------------------------------------------Datos del vendedor-----------------------------------------------------------** -->  
+    <main>
+        <div id="info">
+            <p>Nombre de persona editando - Cargo - Usuario</p>
+        </div>
+    <!-- **----------------------------------------------------Datos del vendedor-----------------------------------------------------------** -->  
+    <!-- **----------------------------------------------------registro producto------------------------------------------------------------** -->  
+        <section id="agregar-producto">
+            <h2>Agregar producto</h2>
+            <form action="/agregar-producto" method="post">
+                <label for="nombre-producto">Nombre producto:</label>
+                <input type="text" id="nombre-producto" name="nombre-producto">
+                <label for="numero-referencia">Número referencia:</label>
+                <input type="text" id="numero-referencia" name="numero-referencia">
+                <label for="codigo-barras">Código de barras:</label>
+                <input type="text" id="codigo-barras" name="codigo-barras">
+                <label for="categoria">Categoría:</label>
+                <input type="text" id="categoria" name="categoria">
+                <label for="precio">Precio:</label>
+                <input type="text" id="precio" name="precio">
+                <label for="iva">IVA:</label>
+                <input type="text" id="iva" name="iva">
+                <label for="imagen">Adjuntar imagen:</label>
+                <input type="file" id="imagen" name="imagen">
+                <input type="submit" value="Agregar">
+                <button type="button" onclick="limpiarDatos()">Limpiar Datos</button>
+            </form>
+        </section>
+    
+    <!-- **----------------------------------------------------registro producto------------------------------------------------------------** -->  
+    <!-- **----------------------------------------------------script para limpiar datos----------------------------------------------------** -->  
+
+    <script>
+        function limpiarDatos() {
+            // Aquí va el código para limpiar los datos del formulario
+        }
+    </script>
+    <!-- **----------------------------------------------------script para limpiar datos----------------------------------------------------** -->  
+    <!-- **----------------------------------------------------Aviso ventana confirmacion registro------------------------------------------** -->
+    
+    <section id="mensaje">
+            <div class="message-box">
+                <p>Producto Registrado</p>
+                <button type="button" onclick="agregarOtro()">Agregar otro</button>
+                <button type="button" onclick="volverAlInicio()">Volver al inicio</button>
+            </div>
+        </section>
+    
+    <!-- **----------------------------------------------------Aviso ventana confirmacion registro------------------------------------------** -->
+    <!-- **----------------------------------------------------script para agregar otro producto o volver al inicio-------------------------** -->  
+    <script>
+        function agregarOtro() {
+            // Aquí va el código para agregar otro producto
+        }
+        function volverAlInicio() {
+            // Aquí va el código para volver al inicio
+        }
+    </script>
+    <!-- **----------------------------------------------------script para agregar otro producto o volver al inicio-------------------------** -->  
+    </main> 
 </body>
 </html>
