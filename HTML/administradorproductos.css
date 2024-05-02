@@ -1,0 +1,551 @@
+body {
+    position: relative;
+background-color: rgb(15, 112, 7);
+}
+section {
+    background-color: green;
+    text-align: center;
+}
+#logo  {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: black;
+    border-style: solid;
+
+}
+/* imagen del icono inicial...*/
+div h2{
+    color: rgb(170, 117, 17);
+text-align: center;
+text-shadow: 3px 5px rgb(3, 2, 0);
+text-decoration: overline;
+}
+/* boton de buscar...*/
+
+.search-button{
+    background-color: rgb(216, 154, 19);
+    text-align: center;
+}
+/* barra de buscar*/
+input {
+    font-size: 12px;
+    text-decoration-color: black;
+    color: black;
+    background-color: rgba(245, 227, 203, 0.986);
+    text-align: center;
+}
+#adprod-Cerveza {
+    position: relative; /* Establece el posicionamiento relativo */
+    width: auto; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Cerveza img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 200px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Cerveza span {
+    position:relative; /* Establece el posicionamiento relativo */
+    border-style: outset;
+    top: 100px; /* Coloca el texto en la mitad superior del contenedor */
+    left: -200px; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: right; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(255, 123, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Vino{
+    position: relative; /* Establece el posicionamiento relativo */
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Vino img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Vino span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Vodka{
+    position: relative; /* Establece el posicionamiento relativo */
+   
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Vodka img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Vodka span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Whisky{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Whisky img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Whisky span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Arroz{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Arroz img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Arroz span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Aceite{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Aceite img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Aceite span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Cereales{
+    position: relative; /* Establece el posicionamiento relativo */
+  
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Cereales img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Cereales span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Pasta{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Pasta img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Pasta span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Crema{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Crema img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Crema span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Papel{
+    position: relative; /* Establece el posicionamiento relativo */
+   
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Papel img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Papel span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Protex{
+    position: relative; /* Establece el posicionamiento relativo */
+   
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Protex img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Protex span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Shampoo{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Shampoo img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Shampoo span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Camarones{
+    position: relative; /* Establece el posicionamiento relativo */
+  
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Camarones img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Camarones span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}
+#adprod-Pollo{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Pollo img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Pollo span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}#adprod-Salmon{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Salmon img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Salmon span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}#adprod-Ternera{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Ternera img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Ternera span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}#adprod-Banano{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Banano img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Banano span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}#adprod-Espinaca{
+    position: relative; /* Establece el posicionamiento relativo */
+    
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Espinaca img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Espinaca span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: right; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+}#adprod-Mazanas{
+    position: relative; /* Establece el posicionamiento relativo */
+        width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+}
+
+#adprod-Mazanas img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Mazanas span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+    }#adprod-Zanahoria{
+    position: relative; /* Establece el posicionamiento relativo */
+    width: 200px; /* Ajusta el ancho según el tamaño de tu imagen */
+    height: auto; /* O ajusta la altura según el tamaño de tu imagen */
+ }
+#adprod-Zanahoria img {
+    display: block; /* Asegura que la imagen sea un bloque */
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta la altura de la imagen automáticamente */
+}
+
+#adprod-Zanahoria span {
+    position: absolute; /* Establece el posicionamiento absoluto */
+    border-style: outset;
+    top: 50%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 50%; /* Centra horizontalmente el texto */
+    transform: translate(-50%, -50%); /* Centra verticalmente el texto */
+    text-align: center; /* Alinea el texto al centro */
+    color: white; /* Color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    /* Ajusta otros estilos según tu preferencia */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para que el texto sea legible */
+    padding: 5px 10px; /* Espaciado interno del texto */
+    }
+    #boton1 {
+        position:relative; /* Establece el posicionamiento relativo */
+        top: -3830px; /* Coloca el texto en la mitad superior del contenedor */
+    right: -100px; /* Centra horizontalmente el texto */
+    }
