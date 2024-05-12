@@ -1,0 +1,90 @@
+body {
+position: relative;
+background-color: rgb(15, 112, 7);
+height: 1980px;
+}
+section {
+    position: relative;
+    background-color: green;
+    text-align: left;
+}
+#logo  {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border: black;
+    border-style: solid;
+
+}
+/* imagen del icono inicial...*/
+div h2{
+color: rgb(170, 117, 17);
+text-align: left;
+text-shadow: 3px 5px rgb(3, 2, 0);
+text-decoration: overline;
+}
+/* boton de buscar...*/
+
+.search-button{
+    position: relative;
+    top: -50px;
+    right: -1030px;
+    background-color: rgb(216, 154, 19);
+    text-align: center;
+}
+/* barra de buscar*/
+input {
+    position: relative;
+    top: -50px;
+    right: -1030px;
+    font-size: 12px;
+    text-decoration-color: black;
+    color: black;
+    background-color: rgba(245, 227, 203, 0.986);
+    text-align: center;
+}
+#adprod-productos{
+    background-color:rgb(249, 249, 249);
+    width: 450px;
+    height: auto;
+    }
+#adprod-productos img{
+    border: solid;
+    border-style: outset;
+    border-color: green;
+    display: block;
+    height: 80px;
+    width: 80px;
+   }
+#adprod-productos span{
+    color: green;
+    position: relative;
+    right:-50px;
+    top: 40px;
+}
+#adprod-cantidades{
+        position: relative;
+        left: 450px;
+        top: -2080px;
+        background-color: rgb(252, 252, 252);
+        width: 300px;
+        height: 1980px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        padding: 50px;
+    }
+    #adprod-editor{
+        position: relative;
+        left: 850px;
+        top: -4160px;
+        background-color: rgb(252, 252, 252);
+        width: 300px;
+        height: 1980px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        padding: 50px;
+    }
