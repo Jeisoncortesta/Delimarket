@@ -1,0 +1,75 @@
+Slogan 
+Delimarket el placer de mercar en un solo lugar.
+
+
+Paleta de Colores
+
+Naranja
+#ff801e
+
+Verde
+#b2d147
+
+Negro
+#000000
+
+Cafe
+#804c2e
+
+
+Frutas y verduras:
+
+Manzanas
+4.000
+Zanahorias
+2.000
+Espinacas
+3.000
+Banano
+3.000
+
+
+Carnes y Pescados:
+
+Pollo
+8.000
+Salmón
+30.000
+Ternera
+15.000
+Camarones
+25.000
+
+Productos de aseo:
+
+Champú
+8.000
+Pasta de dientes
+5.000
+Jabón de manos
+3.000
+Papel higiénico
+25.000
+
+
+Vinos y Licores:
+
+Vino tinto Cabernet Sauvignon
+60.000
+Whisky escocés
+150.000
+Cerveza Corona
+25.000
+Vodka
+50.000
+
+Despensa:
+
+Arroz
+2.000
+Pasta
+2.000
+Aceite de oliva
+30.000
+Cereales de desayuno
+8.000

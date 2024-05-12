@@ -8,9 +8,40 @@
     <meta http-equiv="x-UA-Compatible" content="IE=EDGE">
     <meta name="description" content="El mejor supermercado de Colombia con envio a cualquier parte. Delimarket donde cada pasillo es una delicia.">
     <link rel="shortcut icon" href="/RECURSOSMULTIMEDIA/ICO/logo2.ico " type="image/x-icon">
+    <script src="/JS/RegistroUsuarios.js" async></script>
     <title>DeliMarket</title>
 </head>
 <body>
     
+<!-- **----------------------------------------------------Logo & Slogan----------------------------------------------------------------** --> 
+<body>
+    <header>
+    <nav>
+        <div id="logo"><img src="/RECURSOSMULTIMEDIA/IMAGENES/logo2.png" alt="logo"></div>
+        <div id="Slogan">Delimarket el placer de mercar en un solo lugar</div>
+    </nav>
+    </header>
+<!-- **----------------------------------------------------Logo & Slogan----------------------------------------------------------------** --> 
+<!-- **----------------------------------------------------registro usuario-------------------------------------------------------------** --> 
+    <main>
+        <form action="/register" method="post">
+            <label for="nombre-completo">Nombre Completo:</label>
+            <input type="text" id="nombre-completo" name="nombre-completo">
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula" name="cedula">
+            <label for="contraseña">Contraseña:</label>
+            <input type="password" id="contraseña" name="contraseña">
+            <input type="submit" value="Registrarse">
+            <button type="button">Iniciar Sesión</button>
+        </form>
+        <a href="/HTML/Index.html">Volver al inicio</a>
+    </main>
+<!-- **----------------------------------------------------registro usuario-------------------------------------------------------------** --> 
+<!-- **----------------------------------------------------footer-----------------------------------------------------------------------** --> 
+    <footer id="footer">
+        <p id="footer-Copy">Copyright ©, Delimarket 2024. Todos los derechos reservados</p>
+        <p id="footer-terminos">Ver Terminos Y Condiciones</p>
+    </footer>
+<!-- **----------------------------------------------------footer-----------------------------------------------------------------------** --> 
 </body>
 </html>
