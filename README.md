@@ -12,3 +12,6 @@ P-Orti99             -    Laura Paola Ortiz Tumay
 Jeisoncortesta       -    Jeison Alexander Cortes Tafur
 nicolasanaya10       -    Nicolás Steven Anaya Ramírez
 Claudia341           -    Claudia Soraya Novoa Sánchez
+
+
+Se manejan diferente Brach las cuales fueron utilizadas para mejor manejo al repositorio. (ver branch hechas)
